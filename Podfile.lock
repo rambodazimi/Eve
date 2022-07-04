@@ -1,0 +1,26 @@
+PODS:
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - InstantSearchVoiceOverlay (1.1.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - InstantSearchVoiceOverlay
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - InstantSearchVoiceOverlay
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
+  InstantSearchVoiceOverlay: 8fcbd0c143c872e6b39ef9b6475f1dfeb9ebfbcf
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 62885c572e2278b9a4cf57b29a394b661449e9c0
+
+COCOAPODS: 1.11.3
