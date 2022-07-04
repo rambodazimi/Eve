@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB6687F2E8B147CFDC62D01 /* Pods_SpeechRecognision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1383AD6D345D3BC5FCE2E13E /* Pods_SpeechRecognision.framework */; };
+		260281652819C80D001F0E5B /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260281642819C80D001F0E5B /* PinkViewController.swift */; };
+		26028167281A1B75001F0E5B /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26028166281A1B75001F0E5B /* GreenViewController.swift */; };
+		26028169281A4D76001F0E5B /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26028168281A4D76001F0E5B /* BlueViewController.swift */; };
+		261D091B2870D40200785F67 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 261D091A2870D40200785F67 /* SwiftUICharts */; };
+		261D091E2870D41000785F67 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 261D091D2870D41000785F67 /* SwiftUICharts */; };
+		266315A52820F3F6008802E5 /* TakeTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266315A42820F3F6008802E5 /* TakeTestViewController.swift */; };
+		26738EC5286D36E7006137D2 /* ResultViewControllerRambod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26738EC4286D36E7006137D2 /* ResultViewControllerRambod.swift */; };
+		26738EC8286D382A006137D2 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 26738EC7286D382A006137D2 /* SwiftUICharts */; };
+		26C5C6F92872A2D000516300 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C5C6F72872A2D000516300 /* Interface.storyboard */; };
+		26C5C6FB2872A2D200516300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C5C6FA2872A2D200516300 /* Assets.xcassets */; };
+		26C5C7012872A2D200516300 /* EveWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26C5C7002872A2D200516300 /* EveWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26C5C7062872A2D200516300 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C5C7052872A2D200516300 /* InterfaceController.swift */; };
+		26C5C7082872A2D200516300 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C5C7072872A2D200516300 /* ExtensionDelegate.swift */; };
+		26C5C70A2872A2D200516300 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C5C7092872A2D200516300 /* NotificationController.swift */; };
+		26C5C70C2872A2D200516300 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C5C70B2872A2D200516300 /* ComplicationController.swift */; };
+		26C5C70E2872A2D400516300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C5C70D2872A2D400516300 /* Assets.xcassets */; };
+		26C5C7132872A2D400516300 /* EveWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 26C5C6F52872A2D000516300 /* EveWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26DD14062818F97500E03FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD14052818F97500E03FFB /* AppDelegate.swift */; };
+		26DD14082818F97500E03FFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD14072818F97500E03FFB /* SceneDelegate.swift */; };
+		26DD140A2818F97500E03FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD14092818F97500E03FFB /* ViewController.swift */; };
+		26DD140D2818F97600E03FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DD140B2818F97600E03FFB /* Main.storyboard */; };
+		26DD140F2818F97700E03FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DD140E2818F97700E03FFB /* Assets.xcassets */; };
+		26DD14122818F97700E03FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DD14102818F97700E03FFB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C5C7022872A2D200516300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DD13FA2818F97500E03FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C5C6FF2872A2D200516300;
+			remoteInfo = "EveWatch WatchKit Extension";
+		};
+		26C5C7112872A2D400516300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DD13FA2818F97500E03FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C5C6F42872A2D000516300;
+			remoteInfo = EveWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26C5C7142872A2D400516300 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				26C5C7132872A2D400516300 /* EveWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C5C7172872A2D400516300 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26C5C7012872A2D200516300 /* EveWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1383AD6D345D3BC5FCE2E13E /* Pods_SpeechRecognision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechRecognision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260281642819C80D001F0E5B /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		26028166281A1B75001F0E5B /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		26028168281A4D76001F0E5B /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		266315A42820F3F6008802E5 /* TakeTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeTestViewController.swift; sourceTree = "<group>"; };
+		26738EC4286D36E7006137D2 /* ResultViewControllerRambod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewControllerRambod.swift; sourceTree = "<group>"; };
+		26C5C6F52872A2D000516300 /* EveWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C5C6F82872A2D000516300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		26C5C6FA2872A2D200516300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C5C7002872A2D200516300 /* EveWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EveWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C5C7052872A2D200516300 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		26C5C7072872A2D200516300 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		26C5C7092872A2D200516300 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		26C5C70B2872A2D200516300 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		26C5C70D2872A2D400516300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C5C70F2872A2D400516300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C5C7102872A2D400516300 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		26DD14022818F97500E03FFB /* SpeechRecognision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DD14052818F97500E03FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DD14072818F97500E03FFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26DD14092818F97500E03FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26DD140C2818F97600E03FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DD140E2818F97700E03FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DD14112818F97700E03FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DD14132818F97700E03FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A5C37CB7C24C9C9826FD3F /* Pods-SpeechRecognision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognision.release.xcconfig"; path = "Target Support Files/Pods-SpeechRecognision/Pods-SpeechRecognision.release.xcconfig"; sourceTree = "<group>"; };
+		FDDD362EC4AC2AB08DF54838 /* Pods-SpeechRecognision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognision.debug.xcconfig"; path = "Target Support Files/Pods-SpeechRecognision/Pods-SpeechRecognision.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C5C6FD2872A2D200516300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DD13FF2818F97500E03FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261D091B2870D40200785F67 /* SwiftUICharts in Frameworks */,
+				261D091E2870D41000785F67 /* SwiftUICharts in Frameworks */,
+				0EB6687F2E8B147CFDC62D01 /* Pods_SpeechRecognision.framework in Frameworks */,
+				26738EC8286D382A006137D2 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C5C6F62872A2D000516300 /* EveWatch */ = {
+			isa = PBXGroup;
+			children = (
+				26C5C6F72872A2D000516300 /* Interface.storyboard */,
+				26C5C6FA2872A2D200516300 /* Assets.xcassets */,
+			);
+			path = EveWatch;
+			sourceTree = "<group>";
+		};
+		26C5C7042872A2D200516300 /* EveWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26C5C7052872A2D200516300 /* InterfaceController.swift */,
+				26C5C7072872A2D200516300 /* ExtensionDelegate.swift */,
+				26C5C7092872A2D200516300 /* NotificationController.swift */,
+				26C5C70B2872A2D200516300 /* ComplicationController.swift */,
+				26C5C70D2872A2D400516300 /* Assets.xcassets */,
+				26C5C70F2872A2D400516300 /* Info.plist */,
+				26C5C7102872A2D400516300 /* PushNotificationPayload.apns */,
+			);
+			path = "EveWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		26DD13F92818F97500E03FFB = {
+			isa = PBXGroup;
+			children = (
+				26DD14042818F97500E03FFB /* SpeechRecognision */,
+				26C5C6F62872A2D000516300 /* EveWatch */,
+				26C5C7042872A2D200516300 /* EveWatch WatchKit Extension */,
+				26DD14032818F97500E03FFB /* Products */,
+				FD27A835CFA0DBFB9CAC11FD /* Pods */,
+				90E2EB73953D3C1A2B90C3F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26DD14032818F97500E03FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DD14022818F97500E03FFB /* SpeechRecognision.app */,
+				26C5C6F52872A2D000516300 /* EveWatch.app */,
+				26C5C7002872A2D200516300 /* EveWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DD14042818F97500E03FFB /* SpeechRecognision */ = {
+			isa = PBXGroup;
+			children = (
+				26DD14052818F97500E03FFB /* AppDelegate.swift */,
+				26DD14072818F97500E03FFB /* SceneDelegate.swift */,
+				26DD14092818F97500E03FFB /* ViewController.swift */,
+				26DD140B2818F97600E03FFB /* Main.storyboard */,
+				26738EC4286D36E7006137D2 /* ResultViewControllerRambod.swift */,
+				266315A42820F3F6008802E5 /* TakeTestViewController.swift */,
+				26028168281A4D76001F0E5B /* BlueViewController.swift */,
+				26028166281A1B75001F0E5B /* GreenViewController.swift */,
+				260281642819C80D001F0E5B /* PinkViewController.swift */,
+				26DD140E2818F97700E03FFB /* Assets.xcassets */,
+				26DD14102818F97700E03FFB /* LaunchScreen.storyboard */,
+				26DD14132818F97700E03FFB /* Info.plist */,
+			);
+			path = SpeechRecognision;
+			sourceTree = "<group>";
+		};
+		90E2EB73953D3C1A2B90C3F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1383AD6D345D3BC5FCE2E13E /* Pods_SpeechRecognision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD27A835CFA0DBFB9CAC11FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD362EC4AC2AB08DF54838 /* Pods-SpeechRecognision.debug.xcconfig */,
+				80A5C37CB7C24C9C9826FD3F /* Pods-SpeechRecognision.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C5C6F42872A2D000516300 /* EveWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C5C71B2872A2D400516300 /* Build configuration list for PBXNativeTarget "EveWatch" */;
+			buildPhases = (
+				26C5C6F32872A2D000516300 /* Resources */,
+				26C5C7172872A2D400516300 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C5C7032872A2D200516300 /* PBXTargetDependency */,
+			);
+			name = EveWatch;
+			productName = EveWatch;
+			productReference = 26C5C6F52872A2D000516300 /* EveWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		26C5C6FF2872A2D200516300 /* EveWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C5C71A2872A2D400516300 /* Build configuration list for PBXNativeTarget "EveWatch WatchKit Extension" */;
+			buildPhases = (
+				26C5C6FC2872A2D200516300 /* Sources */,
+				26C5C6FD2872A2D200516300 /* Frameworks */,
+				26C5C6FE2872A2D200516300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EveWatch WatchKit Extension";
+			productName = "EveWatch WatchKit Extension";
+			productReference = 26C5C7002872A2D200516300 /* EveWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		26DD14012818F97500E03FFB /* SpeechRecognision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DD14162818F97700E03FFB /* Build configuration list for PBXNativeTarget "SpeechRecognision" */;
+			buildPhases = (
+				1C6665FDA68CDB11C87B29E5 /* [CP] Check Pods Manifest.lock */,
+				26DD13FE2818F97500E03FFB /* Sources */,
+				26DD13FF2818F97500E03FFB /* Frameworks */,
+				26DD14002818F97500E03FFB /* Resources */,
+				11CE49EEC8BF9F8E466BDA9A /* [CP] Embed Pods Frameworks */,
+				26C5C7142872A2D400516300 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C5C7122872A2D400516300 /* PBXTargetDependency */,
+			);
+			name = SpeechRecognision;
+			packageProductDependencies = (
+				26738EC7286D382A006137D2 /* SwiftUICharts */,
+				261D091A2870D40200785F67 /* SwiftUICharts */,
+				261D091D2870D41000785F67 /* SwiftUICharts */,
+			);
+			productName = SpeechRecognision;
+			productReference = 26DD14022818F97500E03FFB /* SpeechRecognision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DD13FA2818F97500E03FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					26C5C6F42872A2D000516300 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					26C5C6FF2872A2D200516300 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					26DD14012818F97500E03FFB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 26DD13FD2818F97500E03FFB /* Build configuration list for PBXProject "SpeechRecognision" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DD13F92818F97500E03FFB;
+			packageReferences = (
+				26738EC6286D382A006137D2 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				261D09192870D40200785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				261D091C2870D41000785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 26DD14032818F97500E03FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DD14012818F97500E03FFB /* SpeechRecognision */,
+				26C5C6F42872A2D000516300 /* EveWatch */,
+				26C5C6FF2872A2D200516300 /* EveWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C5C6F32872A2D000516300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C5C6FB2872A2D200516300 /* Assets.xcassets in Resources */,
+				26C5C6F92872A2D000516300 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C5C6FE2872A2D200516300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C5C70E2872A2D400516300 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DD14002818F97500E03FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD14122818F97700E03FFB /* LaunchScreen.storyboard in Resources */,
+				26DD140F2818F97700E03FFB /* Assets.xcassets in Resources */,
+				26DD140D2818F97600E03FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CE49EEC8BF9F8E466BDA9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognision/Pods-SpeechRecognision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognision/Pods-SpeechRecognision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognision/Pods-SpeechRecognision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C6665FDA68CDB11C87B29E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechRecognision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C5C6FC2872A2D200516300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C5C70A2872A2D200516300 /* NotificationController.swift in Sources */,
+				26C5C70C2872A2D200516300 /* ComplicationController.swift in Sources */,
+				26C5C7082872A2D200516300 /* ExtensionDelegate.swift in Sources */,
+				26C5C7062872A2D200516300 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DD13FE2818F97500E03FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260281652819C80D001F0E5B /* PinkViewController.swift in Sources */,
+				26DD140A2818F97500E03FFB /* ViewController.swift in Sources */,
+				26DD14062818F97500E03FFB /* AppDelegate.swift in Sources */,
+				26738EC5286D36E7006137D2 /* ResultViewControllerRambod.swift in Sources */,
+				26DD14082818F97500E03FFB /* SceneDelegate.swift in Sources */,
+				26028169281A4D76001F0E5B /* BlueViewController.swift in Sources */,
+				266315A52820F3F6008802E5 /* TakeTestViewController.swift in Sources */,
+				26028167281A1B75001F0E5B /* GreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C5C7032872A2D200516300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C5C6FF2872A2D200516300 /* EveWatch WatchKit Extension */;
+			targetProxy = 26C5C7022872A2D200516300 /* PBXContainerItemProxy */;
+		};
+		26C5C7122872A2D400516300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C5C6F42872A2D000516300 /* EveWatch */;
+			targetProxy = 26C5C7112872A2D400516300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26C5C6F72872A2D000516300 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C5C6F82872A2D000516300 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		26DD140B2818F97600E03FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DD140C2818F97600E03FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DD14102818F97700E03FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DD14112818F97700E03FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26C5C7152872A2D400516300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = EveWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = EveWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Rambod-Azimi.SpeechRecognision";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		26C5C7162872A2D400516300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = EveWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = EveWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Rambod-Azimi.SpeechRecognision";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		26C5C7182872A2D400516300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EveWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EveWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		26C5C7192872A2D400516300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EveWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EveWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		26DD14142818F97700E03FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DD14152818F97700E03FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DD14172818F97700E03FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDD362EC4AC2AB08DF54838 /* Pods-SpeechRecognision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Eve;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please let us listen to your voice :)";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please let us recognize your voice :)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DD14182818F97700E03FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A5C37CB7C24C9C9826FD3F /* Pods-SpeechRecognision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AA9KJ4B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Eve;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please let us listen to your voice :)";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Please let us recognize your voice :)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rambod-Azimi.SpeechRecognision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C5C71A2872A2D400516300 /* Build configuration list for PBXNativeTarget "EveWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C5C7182872A2D400516300 /* Debug */,
+				26C5C7192872A2D400516300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C5C71B2872A2D400516300 /* Build configuration list for PBXNativeTarget "EveWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C5C7152872A2D400516300 /* Debug */,
+				26C5C7162872A2D400516300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DD13FD2818F97500E03FFB /* Build configuration list for PBXProject "SpeechRecognision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DD14142818F97700E03FFB /* Debug */,
+				26DD14152818F97700E03FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DD14162818F97700E03FFB /* Build configuration list for PBXNativeTarget "SpeechRecognision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DD14172818F97700E03FFB /* Debug */,
+				26DD14182818F97700E03FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		261D09192870D40200785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		261D091C2870D41000785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		26738EC6286D382A006137D2 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		261D091A2870D40200785F67 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261D09192870D40200785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+		261D091D2870D41000785F67 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261D09192870D40200785F67 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+		26738EC7286D382A006137D2 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26738EC6286D382A006137D2 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26DD13FA2818F97500E03FFB /* Project object */;
+}
